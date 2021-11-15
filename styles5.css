@@ -1,0 +1,223 @@
+.news_page {
+  background-image:url(file:///C:/Users/Andrei/Desktop/SJSU%20classes/BUS%20118W/Music%20Project%20pics/weeknd.jpg);
+  background-position: 0px 0px;
+  background-size:cover;
+  background-repeat:repeat;
+  background-attachment: fixed;
+}
+
+.logo {
+  margin-top: 50px;
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+.logo ul {
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo ul li a {
+    color:white;
+    font-family: Impact;
+    font-size: 100px;
+    position:static;
+    letter-spacing: 5px;
+    text-decoration:none;
+    width: 100%;
+  }
+
+
+/* This is for the navigation bar */
+
+.navbar {
+  font-family: Lato;
+  font-size:16px;
+}
+
+.navbar li a, .navbar{
+  color:white !important;
+}
+.navbar-brand {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+  color: white !important;
+  font-size: 25px !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color:black !important;
+    background-color:white !important;
+  }
+/* CSS ends here for navigation bar */
+
+.weeknd_info h1 {
+    color: white;
+    font-family: Impact;
+    font-size: 45px;
+    text-align:center;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: underline;
+    width:fit-content;
+    height: fit-content;
+    letter-spacing: 3px;
+}
+
+.weeknd_info img {
+  float: left;
+  clear:both;
+  margin-left: 30%;
+  margin-right: 10px;
+  width: 200px;
+}
+.weeknd_info p {
+  background-color: black;
+  color:white;
+  font-family:Lato;
+  font-size: 20px;
+  font-weight: bold;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: fit-content;
+  padding: 35px;
+}
+
+.weeknd_info ul li {
+  background-color: black;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  width: 350px;
+  padding: 0px;
+}
+
+.weeknd_info a {
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+.weeknd_info a:hover {
+  text-decoration: none;
+  background-color: white;
+  color:black;
+}
+
+.latest-news-title h1 {
+  color:white;
+  text-align: left;
+  position:static;
+  font-family:Impact;
+  margin-left: 3%;
+  margin-top: 5%;
+  text-decoration: underline;
+  width:fit-content;
+  letter-spacing: 3px;
+}
+
+.slider {
+  margin-bottom: 50px;
+}
+
+.slider img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: auto;
+}
+
+.slider a{
+  width: 30%;
+  height: auto;
+}
+.slider h3 {
+  margin-top: 5px;
+}
+
+.carousel-caption {
+  margin-left: auto;
+  margin-right: auto;
+  width:auto;
+  height:auto;
+  font-family: Georgia;
+}
+
+.carousel-indicators {
+  width: fit-content;
+}
+
+.timeline {
+  color:white;
+  width: fit-content;
+  font-size: 20px;
+  font-family:Impact;
+  margin-top: 20px;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+.timeline {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* This is for the social media icons and links at the bottom right */
+
+.spotify {
+  float:right;
+  margin: 15px;
+  margin-bottom: 0%;
+}
+.youtube {
+  float:right;
+  margin: 15px;
+}
+.facebook {
+  float:right;
+  margin: 15px;
+  margin-right:15px;
+}
+
+.instagram {
+  float:right;
+  margin: 15px;
+}
+
+.twitter {
+  float:right;
+  margin: 15px;
+}
+
+.apple {
+  float:right;
+  margin: 15px;
+}
+
+.spotify {
+  float:right;
+  margin: 15px;
+  margin-bottom: 0%;
+}
+/* CSS ends here for the icons */
+
+@media(max-width: 768px) {
+  .logo ul li {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .news_page ul li, .weeknd_info h1, .weeknd_info p{
+    float:none;
+    clear: both;
+    text-align: center;
+  }
+
+
+}
